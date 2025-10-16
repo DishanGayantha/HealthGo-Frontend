@@ -1,0 +1,124 @@
+.form-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-cancel {
+    background-color: #c0392b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-submit {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+/* Super Admin Profile Modal Styling */
+
+/* Modal Overlay */
+.super-admin-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Modal Content */
+.super-admin-modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 1001;
+}
+
+/* Modal Header */
+.super-admin-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Modal Body */
+.super-admin-modal-body {
+    text-align: center;
+}
+
+/* Close Button */
+.super-admin-close-modal-btn {
+    background-color: transparent; /* Transparent background */
+    border: none; /* Remove border */
+    color: #f34848; /* Change text color */
+    font-size: 1.5rem; /* Increase font size */
+    cursor: pointer; /* Change cursor on hover */
+    transition: color 0.3s ease; /* Smooth transition */
+}
+
+.super-admin-close-modal-btn:hover {
+    color: #d30000; /* Change color on hover */
+}
+
+.super-admin-close-modal-btn:focus {
+    outline: none; /* Remove outline */
+}
+
+/* Super Admin Info */
+.super-admin-info img {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.super-admin-info h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.super-admin-info p {
+    font-size: 14px;
+    color: #666;
+}
