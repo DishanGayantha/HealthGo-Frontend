@@ -10,6 +10,7 @@ import { FaBell, FaSearch } from "react-icons/fa";
 const ManagePatient = () => {
   const [patients, setPatients] = useState<IPatient[]>([]);
   const navigate = useNavigate();
+  
 
   useEffect(() => {
     const fetchPatients = async () => {
